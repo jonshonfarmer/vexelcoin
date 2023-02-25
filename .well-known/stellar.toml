@@ -3,31 +3,26 @@ VERSION="2.0.0"
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 ACCOUNTS=[
-"GAXZ3RSP6X53LD5IRGYNPUZEE6W6M3LDEXEUIGSKTBJATEXEZINKHDWD"
+"GAXZ3RSP6X53LD5IRGYNPUZEE6W6M3LDEXEUIGSKTBJATEXEZINKHDWD","GC6EZ4YTT3I2GYCLUFIJMKO534WAP2QOQUTMLFZ25CQRSIHA5S5QQL2Y"
 ]
 
 
 [DOCUMENTATION]
-ORG_NAME="VEXONIC LLC"
-ORG_URL="https://vexelcoin.com/"
-ORG_DESCRIPTION="Vexonic Team is made up of 10 software engeneeries that have a deep knowledge in the field of crypto and MetaVerse games. Our staff can help you at any time with any problems you encounter"
-ORG_TWITTER="vexelcoin"
-ORG_LOGO="https://i.ibb.co/q5BSqJD/IMG-4649.jpg"
-ORG_OFFICIAL_EMAIL="vexonicteam@gmail.com"
+ORG_NAME=“Vexonic LLC“
+URL="https://vexelcoin.com"
 
+[[PRINCIPALS]]
+name=“Andrew Jester”  
+email=“vexelcoin@gmail.com”
+telegram="https://t.me/+OJZ3WdqM8FVkNDEy"
 
 [[CURRENCIES]]
 code="VEXEL"
-issuer="GC6EZ4YTT3I2GYCLUFIJMKO534WAP2QOQUTMLFZ25CQRSIHA5S5QQL2Y"
-anchor_asset_type="crypto"
-anchor_asset="VEXEL"
-name="Vexel"
-desc="VEXEL is the coin of vexonic which will allow you to purchase Vexilus ships to make money by playing Vexonic - a spaceshooter game"
-image="https://i.ibb.co/q5BSqJD/IMG-4649.jpg"
-fixed_number=300000000
-max_number=300000000
-is_unlimited=false
-#VEXEL was issued using the open and inclusive Stellar blockchain network.
+issuer = "GC6EZ4YTT3I2GYCLUFIJMKO534WAP2QOQUTMLFZ25CQRSIHA5S5QQL2Y"
+name = “VEXEL”
+desc = "VEXEL is the coin of vexonic which will allow you to purchase Vexilus ships to make money by playing Vexonic- a spaceshooter game"
+conditions = "There will only ever be 30,000,000 VEXEL in existence."
+image = "https://i.ibb.co/q5BSqJD/IMG-4649.jpg"
 
 
 
