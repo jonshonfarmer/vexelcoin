@@ -8,18 +8,18 @@ ACCOUNTS=[
 
 
 [DOCUMENTATION]
-ORG_NAME=“Vexonic LLC“
+ORG_NAME="Vexonic LLC"
 URL="https://vexelcoin.com"
 
 [[PRINCIPALS]]
-name=“Andrew Jester”  
-email=“vexelcoin@gmail.com”
+name="Andrew Jester"
+email="vexelcoin@gmail.com"
 telegram="https://t.me/+OJZ3WdqM8FVkNDEy"
 
 [[CURRENCIES]]
 code="VEXEL"
 issuer = "GC6EZ4YTT3I2GYCLUFIJMKO534WAP2QOQUTMLFZ25CQRSIHA5S5QQL2Y"
-name = “VEXEL”
+name = "VEXEL"
 desc = "VEXEL is the coin of vexonic which will allow you to purchase Vexilus ships to make money by playing Vexonic- a spaceshooter game"
 conditions = "There will only ever be 30,000,000 VEXEL in existence."
 image = "https://i.ibb.co/q5BSqJD/IMG-4649.jpg"
