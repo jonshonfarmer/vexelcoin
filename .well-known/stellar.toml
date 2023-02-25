@@ -1,1 +1,31 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GC6EZ4YTT3I2GYCLUFIJMKO534WAP2QOQUTMLFZ25CQRSIHA5S5QQL2Y"
+]
+VERSION="2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME="VEXONIC LLC"
+ORG_URL="https://vexelcoin.com/"
+ORG_DESCRIPTION="Vexonic Team is made up of 10 software engeneeries that have a deep knowledge in the field of crypto and MetaVerse games. Our staff can help you at any time with any problems you encounter"
+ORG_TWITTER="vexelcoin"
+ORG_LOGO="https://i.ibb.co/q5BSqJD/IMG-4649.jpg"
+ORG_OFFICIAL_EMAIL="vexonicteam@gmail.com"
+
+
+[[CURRENCIES]]
+code="VEXEL"
+issuer="GCL53Z6LZTSQRIM43NQMSUCC6UDAGF3UXVALUWDBDL6P7Q3L6KGMK57R"
+anchor_asset_type="crypto"
+anchor_asset="VEXEL"
+name="Vexel"
+desc="VEXEL is the coin of vexonic which will allow you to purchase Vexilus ships to make money by playing Vexonic - a spaceshooter game"
+image="https://i.ibb.co/q5BSqJD/IMG-4649.jpg"
+fixed_number=300000000
+max_number=300000000
+is_unlimited=false
+#VEXEL was issued using the open and inclusive Stellar blockchain network.
+
+
 
