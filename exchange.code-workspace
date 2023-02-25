@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../crypto/images"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "exchange"
+  }
+}
