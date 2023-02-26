@@ -10,8 +10,9 @@ ACCOUNTS=[
 ORG_NAME="Vexonic LLC"
 ORG_URL="https://vexelcoin.com"
 ORG_DESCRIPTION="Vexonic Team is made up of 10 software engeneeries that have a deep knowledge in the field of crypto and MetaVerse games. Our staff can help you at any time with any problems you encounter"
-ORG_LOGO="https://vexelcoin.com/vagexchange.png"
-
+ORG_LOGO="https://vexelcoin.com/vexelicon.png"
+email="vexonicteam@gmail.com"
+telegram="https://t.me/+OJZ3WdqM8FVkNDEy"
 
 [[CURRENCIES]]
 code="VEXEL"
@@ -20,7 +21,8 @@ anchor_asset_type="crypto"
 anchor_asset="VEXEL"
 name="Vexel"
 desc="Vexel coin is the main currency of the Vexonic game. Having this coin, you will be able to participate in pools, purchase ships, nft, participate in giveaways and many other possibilities. More info you can get at our web"
-image="https://vexelcoin.com/vagexchange.png"
+conditions = "There will only ever be 30,000,000 VEXEL in existence."
+image="https://vexelcoin.com/vexelicon.png"
 fixed_number=300000000
 max_number=300000000
 is_unlimited=false
