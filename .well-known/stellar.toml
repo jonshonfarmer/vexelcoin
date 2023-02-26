@@ -11,6 +11,9 @@ ORG_NAME="Vexonic LLC"
 ORG_URL="https://vexelcoin.com"
 ORG_DESCRIPTION="Vexonic Team is made up of 10 software engeneeries that have a deep knowledge in the field of crypto and MetaVerse games. Our staff can help you at any time with any problems you encounter"
 ORG_LOGO="https://vexelcoin.com/vexelicon.png"
+
+[[PRINCIPALS]]
+name="John Frank"
 email="vexonicteam@gmail.com"
 telegram="https://t.me/+OJZ3WdqM8FVkNDEy"
 
