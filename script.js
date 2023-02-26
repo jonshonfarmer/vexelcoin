@@ -66,7 +66,7 @@ navLogo.addEventListener("click", hideMobileMenu);
 const settings = {
   async: true,
   scrollDomain: true,
-  url: "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Cstellar&vs_currencies=usd",
+  url: "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cstellar%2Cmetapioneers&vs_currencies=usd",
   method: "GET",
   headers: {},
 };
@@ -76,10 +76,9 @@ const eth = document.getElementById("ethereum");
 const doge = document.getElementById("dogecoin");
 
 $.ajax(settings).done(function (response) {
-  console.log(response);
   btc.innerHTML = response.bitcoin.usd;
   eth.innerHTML = response.stellar.usd;
-  doge.innerHTML = response.stellar.usd;
+  doge.innerHTML = response.metapioneers.usd;
 });
 
 //flag
