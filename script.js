@@ -260,7 +260,7 @@ $(".ru").click(function () {
   $("#rus").addClass(".active-ru");
 });
 
-const countDownDate = new Date("Mar 23, 2023 00:00:00").getTime();
+const countDownDate = new Date("Apr 6, 2023 00:00:00").getTime();
 const x = setInterval(function () {
   let now = new Date().getTime();
   let distance = countDownDate - now;
