@@ -34,7 +34,7 @@ const highlightMenu = () => {
     homeMenu.classList.remove("highlight");
     servicesMenu.classList.remove("highlight");
     return;
-  } else if (window.innerWidth > 1200 && scrollPos < 2600) {
+  } else if (window.innerWidth > 1200 && scrollPos < 2800) {
     servicesMenu.classList.add("highlight");
     aboutMenu.classList.remove("highlight");
     return;
@@ -117,148 +117,148 @@ $.ajax(settings).done(function (response) {
 //   });
 // }
 
-$(".en").click(function () {
-  $("#game-page").text("GAME");
-  $("#home-page").text("COIN");
-  $("#about-page").text("ABOUT");
-  $("#services-page").text("CONTACS");
-  $("#tranzactie").text("Purchase VXL");
-  $(".language-selected").text("English");
-  $(".en").text("English");
-  $(".ru").text("Russian");
-  $(".poph2").text("HOW TO BUY VEXEL?");
-  $(".popP").text(
-    " Maybe you are new or dont know all the steps in buying a cryptocureny on LOBSTR this link will give you step by step instruction on how to purchase vexel"
-  );
-  $(".popA").text("INTRUCTIONS");
-  $(".log").text("Welcome to VEXONIC");
-  $(
-    ".log2"
-  ).text(`Isn't this your biggest dream? To play your favorite game and make
-  money.`);
-  $(".howToBuy1").text("Game Introduction:");
-  $(".gameLink").text("Learn more...");
-  $(
-    ".log3"
-  ).text(`The game takes place in a 2D universe. After procuring the ship
-  and upgrading it, you have the opportunity to destroy other things
-  in the universe and receive coins for it. The game market will
-  allow you to easily purchase the spaceship, choose its color and
-  armament. This game is an easy way to get to know metaverse and
-  make money without much effort, all you need is to buy Vexel coin,
-  create an account, equip yourself and you can start making money.
-  Weekly draws will not leave you indifferent, as in each of them
-  you can win a spaceship and other worthwhile prizes. Let our
-  journey begin!`);
-  $(".timeh2").text("We're Launching Soon");
-  $(".time1").text("Days");
-  $(".time2").text("Hours");
-  $(".time3").text("Minutes");
-  $(".time4").text("Seconds");
-  $(".header").text("VEXEL COIN - JOIN THE SAFEST AND FUTURE OF");
-  $(".crypto").text("CRYPTOCURRENCY");
-  $(
-    ".text"
-  ).text(`One of the most promising coins of 2023 expected to be on binance by
-  the end of 2025 trusted by SolidProof and ranked amongst the biggest
-  names on the market rn. A very big community of big investors and
-  24/7 support`);
-  $(".cump").text("PURCHASE VXL");
-  $(".coiner").text("Bitcoin");
-  $(".coiner1").text("Lumen");
-  $(".coiner2").text("Vexel");
-  $(".proof_text").text("PROFESIONALLY VERIFIED AND APPROVED");
-  $(".proof_text1").text("PROFESIONALLY VERIFIED AND APPROVED");
-  $("#inf1").text("Expected holders in 2023");
-  $("#inf2").text("Awaited liquidity 2023");
-  $("#inf3").text("Vexel coins will be listed");
-  $("#inf4").text("Coins capital");
-  $("#h1").text("WHY SHOULD YOU INVEST IN VEXEL?");
-  $("#h2").text("VEXEL WILL GENERATE IN 10X WHEN WE LAUCH ON LOBBY");
-  $(
-    "#p"
-  ).text(` We expect investors from Russia and Ukraine which will drive the
-  price of the coin up, so buy till you can`);
-  $(".cump1").text("PURCHASE VXL");
-  $(".sfarsit").text("We respond 24/7");
-  $(".auto").text("Join our telegram for more questions and daily news");
-  $(".btn_telega").text("Open chat");
-  $(".america").addClass(".active-en");
-});
+// $(".en").click(function () {
+//   $("#game-page").text("GAME");
+//   $("#home-page").text("COIN");
+//   $("#about-page").text("ABOUT");
+//   $("#services-page").text("CONTACS");
+//   $("#tranzactie").text("Purchase VXL");
+//   $(".language-selected").text("English");
+//   $(".en").text("English");
+//   $(".ru").text("Russian");
+//   $(".poph2").text("HOW TO BUY VEXEL?");
+//   $(".popP").text(
+//     " Maybe you are new or dont know all the steps in buying a cryptocureny on LOBSTR this link will give you step by step instruction on how to purchase vexel"
+//   );
+//   $(".popA").text("INTRUCTIONS");
+//   $(".log").text("Welcome to VEXONIC");
+//   $(
+//     ".log2"
+//   ).text(`Isn't this your biggest dream? To play your favorite game and make
+//   money.`);
+//   $(".howToBuy1").text("Game Introduction:");
+//   $(".gameLink").text("Learn more...");
+//   $(
+//     ".log3"
+//   ).text(`The game takes place in a 2D universe. After procuring the ship
+//   and upgrading it, you have the opportunity to destroy other things
+//   in the universe and receive coins for it. The game market will
+//   allow you to easily purchase the spaceship, choose its color and
+//   armament. This game is an easy way to get to know metaverse and
+//   make money without much effort, all you need is to buy Vexel coin,
+//   create an account, equip yourself and you can start making money.
+//   Weekly draws will not leave you indifferent, as in each of them
+//   you can win a spaceship and other worthwhile prizes. Let our
+//   journey begin!`);
+//   $(".timeh2").text("We're Launching Soon");
+//   $(".time1").text("Days");
+//   $(".time2").text("Hours");
+//   $(".time3").text("Minutes");
+//   $(".time4").text("Seconds");
+//   $(".header").text("VEXEL COIN - JOIN THE SAFEST AND FUTURE OF");
+//   $(".crypto").text("CRYPTOCURRENCY");
+//   $(
+//     ".text"
+//   ).text(`One of the most promising coins of 2023 expected to be on binance by
+//   the end of 2025 trusted by SolidProof and ranked amongst the biggest
+//   names on the market rn. A very big community of big investors and
+//   24/7 support`);
+//   $(".cump").text("PURCHASE VXL");
+//   $(".coiner").text("Bitcoin");
+//   $(".coiner1").text("Lumen");
+//   $(".coiner2").text("Vexel");
+//   $(".proof_text").text("PROFESIONALLY VERIFIED AND APPROVED");
+//   $(".proof_text1").text("PROFESIONALLY VERIFIED AND APPROVED");
+//   $("#inf1").text("Expected holders in 2023");
+//   $("#inf2").text("Awaited liquidity 2023");
+//   $("#inf3").text("Vexel coins will be listed");
+//   $("#inf4").text("Coins capital");
+//   $("#h1").text("WHY SHOULD YOU INVEST IN VEXEL?");
+//   $("#h2").text("VEXEL WILL GENERATE IN 10X WHEN WE LAUCH ON LOBBY");
+//   $(
+//     "#p"
+//   ).text(` We expect investors from Russia and Ukraine which will drive the
+//   price of the coin up, so buy till you can`);
+//   $(".cump1").text("PURCHASE VXL");
+//   $(".sfarsit").text("We respond 24/7");
+//   $(".auto").text("Join our telegram for more questions and daily news");
+//   $(".btn_telega").text("Open chat");
+//   $(".america").addClass(".active-en");
+// });
 
-$(".ru").click(function () {
-  $("#game-page").text("Игра");
-  $("#home-page").text("Дом");
-  $("#about-page").text("O монете");
-  $("#services-page").text("Контакты");
-  $(".cump").text("Купить VXL");
-  $(".language-selected").text("Русский");
-  $(".en").text("Английский");
-  $(".ru").text("Русский");
-  $(".poph2").text("КАК КУПИТЬ ВЕКСЕЛ?");
-  $(".popP").text(
-    "Может быть, вы новичок или не знаете всех шагов по покупке криптовалюты на LOBSTR, эта ссылка даст вам пошаговую инструкцию о том, как купить vexel."
-  );
-  $(".popA").text("ИНСТРУКЦИИ");
-  $(".log").text("Добро пожаловать в ВЕКСОНИК");
-  $(".log2").text(
-    `Разве это не твоя самая большая мечта? Играть в любимую игру и зарабатывать деньги.   `
-  );
-  $(".howToBuy1").text("Введение в игру:");
-  $(".gameLink").text("Узнать больше...");
-  $(
-    ".log3"
-  ).text(`Действие игры происходит в 2D-вселенной. После приобретения корабля
-  и улучшая его, у вас есть возможность уничтожать другие вещи
-  во вселенной и получайте за это монеты. Рынок игр будет
-  позволяют легко приобрести космический корабль, выбрать его цвет и
-  вооружение. Эта игра — простой способ познакомиться с метавселенной и
-  зарабатывай без особых усилий, все что тебе нужно это купить монету Vexel,
-  создайте учетную запись, оборудуйте себя, и вы можете начать зарабатывать деньги.
-  Еженедельные розыгрыши не оставят вас равнодушными, ведь в каждом из них
-  Вы можете выиграть космический корабль и другие ценные призы. Пусть наш
-  путешествие начинается!`);
-  $(".timeh2").text("Мы скоро запускаем");
-  $(".time1").text("Дни");
-  $(".time2").text("Часы");
-  $(".time3").text("Минуты");
-  $(".time4").text("Секунды");
-  $(".header").text("VEXEL COIN - ПРИСОЕДИНЯЙТЕСЬ К БЕЗОПАСНОМУ БУДУЩЕМУ");
-  $(".crypto").text("CRYPTOCURRENCY");
-  $(".text").text(
-    `Один из самых перспективных монет на 2023 год, ожидается листинг на binance к концу 2025 года… Сообщество надёжных инвесторов и 24/7 поддержка.`
-  );
-  $(".howToBuy").text("КАК КУПИТЬ ВЕКСЕЛ:");
-  $(".buyLink").text("ИНСТРУКЦИИ");
-  $(".cump1").text("Купить VXL");
-  $(".coiner").text("Bitcoin");
-  $(".coiner1").text("Lumen");
-  $(".coiner2").text("Vexel");
-  $(".proof_text").text("PROFESIONALLY VERIFIED AND APPROVED");
-  $(".proof_text1").text("PROFESIONALLY VERIFIED AND APPROVED");
-  $("#inf1").text("Ожидаемые держатели в 2023");
-  $("#inf2").text("Ожидаемая ликвидность в 2023");
-  $("#inf3").text("Монеты Vexel будут перечислены");
-  $("#inf4").text("Столица монеты");
-  $(".coc1").text("ЧТО ВЫ ПОЛУЧИТЕ ИНВЕСТИРУЯ В VEXEL?");
-  $(".coc2").text(
-    "VEXEL ОБЕЩАЕТ РОСТ БОЛЕЕ ЧЕМ В 10 РАЗ ПОСЛЕ ЛИСТИНГА НА HUOBI КОТОРЫЙ ПЛАНИРУЕТСЯ НА АПРЕЛЬ ЭТОГО ГОДА"
-  );
-  $(".coc3").text(`Команда Vexoin состоит из 10 инженеров-программистов, которые
-  многолетний опыт работы в области крипто и метастиха. Мы
-  запустил эту игру с намерением помочь людям, которые мало зарабатывают
-  деньги на своей обычной работе. Мы ждем вас, чтобы стать частью нашего
-  проект, поэтому купите Vexel, и вы быстро вернете свои деньги
-  и более`);
-  $(".cump1").text("Купить VXL");
-  $(".sfarsit").text("Мы отвечаем 24/7");
-  $(".auto").text(
-    "Присоединяйтесь к нашей телеграмме, чтобы получать больше вопросов и ежедневных новостей"
-  );
-  $(".btn_telega").text("Открыть чат");
-  $(".language-selected").img("Flag_of_the_United_States.png");
-  $("#rus").addClass(".active-ru");
-});
+// $(".ru").click(function () {
+//   $("#game-page").text("Игра");
+//   $("#home-page").text("Дом");
+//   $("#about-page").text("O монете");
+//   $("#services-page").text("Контакты");
+//   $(".cump").text("Купить VXL");
+//   $(".language-selected").text("Русский");
+//   $(".en").text("Английский");
+//   $(".ru").text("Русский");
+//   $(".poph2").text("КАК КУПИТЬ ВЕКСЕЛ?");
+//   $(".popP").text(
+//     "Может быть, вы новичок или не знаете всех шагов по покупке криптовалюты на LOBSTR, эта ссылка даст вам пошаговую инструкцию о том, как купить vexel."
+//   );
+//   $(".popA").text("ИНСТРУКЦИИ");
+//   $(".log").text("Добро пожаловать в ВЕКСОНИК");
+//   $(".log2").text(
+//     `Разве это не твоя самая большая мечта? Играть в любимую игру и зарабатывать деньги.   `
+//   );
+//   $(".howToBuy1").text("Введение в игру:");
+//   $(".gameLink").text("Узнать больше...");
+//   $(
+//     ".log3"
+//   ).text(`Действие игры происходит в 2D-вселенной. После приобретения корабля
+//   и улучшая его, у вас есть возможность уничтожать другие вещи
+//   во вселенной и получайте за это монеты. Рынок игр будет
+//   позволяют легко приобрести космический корабль, выбрать его цвет и
+//   вооружение. Эта игра — простой способ познакомиться с метавселенной и
+//   зарабатывай без особых усилий, все что тебе нужно это купить монету Vexel,
+//   создайте учетную запись, оборудуйте себя, и вы можете начать зарабатывать деньги.
+//   Еженедельные розыгрыши не оставят вас равнодушными, ведь в каждом из них
+//   Вы можете выиграть космический корабль и другие ценные призы. Пусть наш
+//   путешествие начинается!`);
+//   $(".timeh2").text("Мы скоро запускаем");
+//   $(".time1").text("Дни");
+//   $(".time2").text("Часы");
+//   $(".time3").text("Минуты");
+//   $(".time4").text("Секунды");
+//   $(".header").text("VEXEL COIN - ПРИСОЕДИНЯЙТЕСЬ К БЕЗОПАСНОМУ БУДУЩЕМУ");
+//   $(".crypto").text("CRYPTOCURRENCY");
+//   $(".text").text(
+//     `Один из самых перспективных монет на 2023 год, ожидается листинг на binance к концу 2025 года… Сообщество надёжных инвесторов и 24/7 поддержка.`
+//   );
+//   $(".howToBuy").text("КАК КУПИТЬ ВЕКСЕЛ:");
+//   $(".buyLink").text("ИНСТРУКЦИИ");
+//   $(".cump1").text("Купить VXL");
+//   $(".coiner").text("Bitcoin");
+//   $(".coiner1").text("Lumen");
+//   $(".coiner2").text("Vexel");
+//   $(".proof_text").text("PROFESIONALLY VERIFIED AND APPROVED");
+//   $(".proof_text1").text("PROFESIONALLY VERIFIED AND APPROVED");
+//   $("#inf1").text("Ожидаемые держатели в 2023");
+//   $("#inf2").text("Ожидаемая ликвидность в 2023");
+//   $("#inf3").text("Монеты Vexel будут перечислены");
+//   $("#inf4").text("Столица монеты");
+//   $(".coc1").text("ЧТО ВЫ ПОЛУЧИТЕ ИНВЕСТИРУЯ В VEXEL?");
+//   $(".coc2").text(
+//     "VEXEL ОБЕЩАЕТ РОСТ БОЛЕЕ ЧЕМ В 10 РАЗ ПОСЛЕ ЛИСТИНГА НА HUOBI КОТОРЫЙ ПЛАНИРУЕТСЯ НА АПРЕЛЬ ЭТОГО ГОДА"
+//   );
+//   $(".coc3").text(`Команда Vexoin состоит из 10 инженеров-программистов, которые
+//   многолетний опыт работы в области крипто и метастиха. Мы
+//   запустил эту игру с намерением помочь людям, которые мало зарабатывают
+//   деньги на своей обычной работе. Мы ждем вас, чтобы стать частью нашего
+//   проект, поэтому купите Vexel, и вы быстро вернете свои деньги
+//   и более`);
+//   $(".cump1").text("Купить VXL");
+//   $(".sfarsit").text("Мы отвечаем 24/7");
+//   $(".auto").text(
+//     "Присоединяйтесь к нашей телеграмме, чтобы получать больше вопросов и ежедневных новостей"
+//   );
+//   $(".btn_telega").text("Открыть чат");
+//   $(".language-selected").img("Flag_of_the_United_States.png");
+//   $("#rus").addClass(".active-ru");
+// });
 
 const countDownDate = new Date("Apr 6, 2023 00:00:00").getTime();
 const x = setInterval(function () {
